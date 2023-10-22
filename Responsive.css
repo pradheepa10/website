@@ -1,0 +1,92 @@
+ @media (min-width: 320px) and (max-width: 480px) {
+    .card{
+        margin:10px;
+    }
+    h4.heading-sections
+    {
+text-align: center;
+    }
+    h4.heading-section{
+
+justify-items: center;   
+margin-left:25px; }
+
+.banner_section {
+   
+    background-image: url(../img/banner.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+}
+.coffee_text {
+    justify-content: center;
+    color: #fdfcfa;
+font-size:25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+position: absolute;
+  top:50%;
+  left:15%;
+}
+
+  }
+
+  @media (min-width: 481px) and (max-width:768px) {
+   
+    .banner_section {
+   
+        background-image: url(../img/banner.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width:100%;
+    }
+    .coffee_text {
+        justify-content: center;
+        color: #fdfcfa;
+    font-size:30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    position: absolute;
+      top:50%;
+      left:30%;
+    }
+    
+    h4.heading-section{
+
+        text-align:start;
+        margin-left:-40px;
+    
+    }
+  
+    .btns{
+       margin-top:20px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    
+    .section_2{
+        margin: 20px;
+    } 
+  }
+
+  
+    @media (min-width: 1025px) and (max-width: 1200px) {
+        .section_2{
+            margin: 20px;
+        } 
+  }
+  @media (min-width: 1201px) {
+    .section_2{
+        margin: 20px;
+    } 
+  } 
+
+
+

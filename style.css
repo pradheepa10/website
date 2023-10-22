@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   
+    overflow-x: hidden !important;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+/* heading section */
+
+
+.bg-light {
+    background-color: transparent!important;
+}
+/* */
+
+.navbar-light.bg-light .navbar-nav .active>a.nav-link,
+.navbar-light.bg-light .navbar-nav a.nav-link.active,
+.navbar-light.bg-light .navbar-nav a.nav-link.show,
+.navbar-light.bg-light .navbar-nav .show>a.nav-link {
+    color: #000;
+    
+}
+.navbar-light.bg-light .navbar-nav a.nav-link:focus,
+.navbar-light.bg-light .navbar-nav a.nav-link:hover {
+    color: #11B98F;
+}
+
+.navbar {
+    padding: 25px 1rem;
+}
+
+.navbar-light.bg-light .navbar-nav a.nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 18px;
+    color: #000;
+
+}
+/*  */
+
+/* banner section */
+.banner_section {
+   
+    background-image: url(../img/banner.png);
+    height:90vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.coffee_text {
+    justify-content: center;
+    color: #fdfcfa;
+font-size: 35px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+position: absolute;
+  top: 45%;
+  left:35%;
+}
+/*  */
+
+
+/* accordion section */
+
+.accordion-item{
+    margin:20px;
+}
+button.accordion-button.collapsed.button-success{
+    background-color: #11B98F;
+    color: #fff;
+    
+}
+.accordion-button:not(.collapsed){
+    background-color: #11B98F !important;
+    color: #fff !important;
+}
+.accordion-button:active,.accordion-button:focus {
+    border:none!important;
+}
+/*  */
+
+/* container-accordion*/
+.container-accordion {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding:10px;
+}
+/*  */
+
+/* card link */
+a.card-link{
+    text-decoration: none;
+    color: #000;
+    font-size:14px;
+    font-weight: 600;
+}
+
+/*  */
+
+.container-section3{
+    margin:20px;
+}
+.btns{
+    justify-content:space-between;
+   margin-top:20px;
+}
+.btn{
+text-align: left;
+}
+
+/*  */
+.accordion-body{
+    background-color:#EAF0F6;
+
+}
+/* .section_2{
+    margin: 20px;
+} */
